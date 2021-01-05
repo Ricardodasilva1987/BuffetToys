@@ -1,0 +1,367 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #F3EEEB;
+    /* background-image:url(/Imagenes/modelo-inconsutil-juguete-transporte_98292-3662.jpg); */
+
+}
+
+/* Redes sociales */
+.redes-soc {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+.redes-soc a {
+    margin-right: 18px;
+}
+
+/* HEADER */
+
+.main-header{
+    display: flex;
+    border-bottom:solid #81c0c5 2px;
+    justify-content: space-between;
+}
+a {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* logo */
+.titulo {
+    color: #9e4848;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+
+}
+
+.fondo{
+    background-image: url(Imagenes/fondo.jpg);
+    width: 100%;
+    opacity: 70%;
+    height: 800px;
+}
+
+/* titulos h1 */
+h1 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 5%;
+}
+
+
+
+.producto {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.Imagenproducto {
+    text-align: center;
+}
+
+
+/* Estilos del menu */
+
+a:hover {
+    border-color: #00828F;
+    color: #00828F;
+
+}
+
+
+/* Carrusel */
+.carrusel {
+    height: 600px;
+}
+
+/* INDEX */
+/* Parrafos y titulos del index */
+
+.section-index div h1 {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color: #F3EEEB;
+}
+
+.section-index div h1:hover{
+color: lavender;
+}
+
+h1{
+    color: #00828F;
+}
+h1:hover{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+    color: lavender;
+    }
+
+.section-div{
+    padding-top: 20px;
+}
+
+.nosotros {
+
+    text-align: center;
+}
+
+.nosotros-2 {
+    text-align: center;
+}
+
+.nosotros-3 {
+    text-align: center;
+}
+
+#fotoedades p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #00828F;
+
+
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+#cat {
+    margin-top: 4%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+
+
+#fotoedades {
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+}
+
+img:hover {filter: opacity(.5);}
+
+.foto-categoria {
+    margin: 30px 0 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #d2e6e7;
+    text-align: center;
+    color: #00828F;
+    padding-top: 10px;
+
+
+
+}
+
+.color1 {
+    background-color: gray;
+    height: 10px;
+}
+
+.color2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #00828F;
+    color: white;
+
+}
+
+ul li {
+    list-style-type: none;
+    margin-top: 10px;
+
+}
+
+.secciones {
+    font-size: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.titulos-footer {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+/* Algo de animacion */
+
+.carrito {
+    width: 500px;
+    height: 200px;
+    background-color: tomato;
+    position: relative;
+    left: 500px;
+    animation-name: carrito;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes carrito {
+    from {
+        background-color: tomato;
+    }
+
+    to {
+        background-color: lime;
+    }
+
+    from {
+        width: 500px;
+    }
+
+    to {
+        width: 800px;
+    }
+}
+
+/* Formulario */
+
+.titulo-form{
+    display: block;
+
+}
+
+.section-contact {
+    display: flex;
+    justify-content: center;
+}
+
+/* .speaker-form-header {
+    text-align: center;
+    background-color: #f6f7f8;
+    border: solid 1px violet;
+    border-radius: 3px;
+    width: 100%;
+    margin: 40px 0px;
+    padding: 50px;
+
+} */
+
+.speaker-form h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.speaker-form {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    padding: 50px;
+    margin: 0 0 40px 0;
+    width: 80%;
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    background-color: #FFF;
+    border: 1px solid#D6D9DC;
+    border-radius: 10px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.form-row label {
+    margin-bottom: 20px;
+}
+
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid {
+
+    border: 1px solid red;
+    color: red;
+
+}
+
+
+
+.form-row select {
+    width: 100%;
+
+}
+
+.form-row button {
+    font-size: 16px;
+    background-color: #5995DA;
+    color: white;
+    cursor: pointer;
+    border: none;
+
+}
+
+.form-row button:hover {
+    background-color:
+        #76Aeed;
+
+}
+
+.form-row button:active {
+    background-color: yellow;
+}
+
+    
+
+.boton{
+    width: 25%;
+}
+
+/* Imagenes de noticias */
+.noticias{
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: #00828F;
+}
+
+.category{
+    display: flex;
+    justify-content: center;
+}
+
