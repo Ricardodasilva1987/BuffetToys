@@ -39,7 +39,7 @@ a:hover {
 }
 
 .fondo {
-  background-image: url(Imagenes/fondo.jpg);
+  background-image: url(/Imagenes/fondo.jpg);
   width: 100%;
   opacity: 100%;
   height: 800px;
