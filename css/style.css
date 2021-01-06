@@ -41,7 +41,7 @@ a:hover {
 .fondo {
   background-image: url(/Imagenes/fondo.jpg);
   width: 100%;
-  opacity: 100%;
+  opacity: 50%;
   height: 800px;
 }
 
@@ -196,8 +196,8 @@ ul li {
   border: 1px solid #d6d9dc;
   border-radius: 3px;
   padding: 50px;
-  margin: 0 0 40px 0;
-  width: 80%;
+  margin: 20px 0 40px 0;
+  width: 50%;
 }
 .speaker-form h1 {
   font-size: 25px;
