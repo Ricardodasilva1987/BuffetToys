@@ -143,7 +143,17 @@ h1{
 
 #fotoedades {
     text-align: center;
+    .years{ 
+        font-family: $font-principal;
+    }
 }
+
+#fotoedades{
+    .years{
+        
+    }
+}
+
 
 img{
     border-radius: 10px;
@@ -308,3 +318,12 @@ ul{
     display: flex;
     justify-content: center;
 }
+
+div .boton-color {
+    background-color:$color-secundario;
+    font-family:$font-principal ;
+    color: white;
+    font-weight: bold;
+  }
+
+ 
