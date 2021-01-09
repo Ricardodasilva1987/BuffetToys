@@ -318,5 +318,51 @@ div .boton-color {
     color: white;
     font-weight: bold;
   }
+  .carousel-inner{
+    width: 100%;
+    max-height: 790px;
+  }
+  .carousel-inner img{
+    width: 100%;
+    max-height: 795px;
+  }
+  .custom-shape-divider-top-1610229286 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
 
+.custom-shape-divider-top-1610229286 svg {
+    position: relative;
+    display: block;
+    width: calc(139% + 1.3px);
+    height: 115px;
+}
+
+.custom-shape-divider-top-1610229286 .shape-fill {
+    fill: #B0DDE1;
+}
+.custom-shape-divider-bottom-1610229535 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1610229535 svg {
+    position: relative;
+    display: block;
+    width: calc(139% + 1.3px);
+    height: 115px;
+}
+
+.custom-shape-divider-bottom-1610229535 .shape-fill {
+    fill: #B0DDE1;
+}
  
