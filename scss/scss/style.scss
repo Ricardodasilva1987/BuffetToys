@@ -1,0 +1,332 @@
+$color-fondo:#F3EEEB;
+$color-secundario:#81c0c5;
+$color-terciario:#00828F;
+$color-hover:lavender;
+$color-logo:#9e4848;
+$font-principal:'Montserrat Alternates', sans-serif;
+$font-logo:'Roboto', sans-serif;
+
+
+*{ margin: 0%;
+padding: 0%;
+box-sizing: border-box}
+
+body{
+    background-color: $color-fondo;
+}
+
+.redes-soc{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    a{
+        margin-right: 18px;
+    }
+}
+
+.main-header{
+    display: flex;
+    border-bottom:solid #81c0c5 2px;
+    justify-content: space-between;
+}
+
+a{
+    font-family: $font-principal;
+}
+
+a:hover {
+    border-color: $color-terciario;
+    color: $color-terciario;
+ 
+}
+
+
+.titulo{
+    color: $color-logo;
+    font-family: $font-logo;
+    font-size: 60px;
+}
+
+.fondo {
+    background-image: url(/Imagenes/fondo.jpg);
+    width: 100%;
+    opacity: 50%;
+    height: 800px;
+}
+h1 {
+    font-family: $font-principal;
+    margin: 5%;
+}
+.producto {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.Imagenproducto {
+    text-align: center;
+}
+
+.carrusel {
+    height: 600px;
+}
+
+.section-index{
+            div{
+                h1{
+                    margin-top: 50px;
+                    margin-bottom: 100px;
+                    display: flex;
+                    justify-content: center;
+                    font-weight: bolder;
+                    color: $color-fondo;
+
+                        &:hover{
+                            color: $color-hover;
+                        }
+                }
+            }
+}
+
+h1{
+    color: $color-terciario;
+    &:hover{
+        -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+    color: $color-hover;
+    }
+}
+
+.section-div{
+    padding-top: 20px;
+}
+
+.nosotros {
+
+    text-align: center;
+}
+
+.nosotros-2 {
+    text-align: center;
+}
+
+.nosotros-3 {
+    text-align: center;
+}
+
+#fotoedades p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: #00828F;
+
+
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+#cat {
+    margin-top: 4%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+
+
+#fotoedades {
+    text-align: center;
+    .years{ 
+        font-family: $font-principal;
+    }
+}
+
+img{
+    border-radius: 10px;
+    &:hover{
+        filter: opacity(.5);
+    }
+}
+
+.foto-categoria {
+    margin: 30px 0 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+
+}
+
+footer {
+    background-color: #d2e6e7;
+    text-align: center;
+    color: #00828F;
+    padding-top: 10px;
+
+
+
+}
+
+.color1 {
+    background-color: gray;
+    height: 10px;
+}
+
+.color2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #00828F;
+    color: white;
+
+}
+
+ul{
+    li{
+        list-style-type: none;
+        margin-top: 10px;
+
+    }
+}
+
+.secciones {
+    font-size: 10px;
+    display: flex;
+    text-align: center;
+}
+
+.titulos-footer {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+// Formulario
+.titulo-form{
+    display: block;
+
+}
+
+.section-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.speaker-form {
+    background-color: #f6f7f8;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+    padding: 50px;
+    margin: 20px 0 40px 0;
+    width: 50%;
+    h1{
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+}
+
+.form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    label{
+        margin-bottom: 20px;
+    }
+  
+
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    background-color: #FFF;
+    border: 1px solid#D6D9DC;
+    border-radius: 10px;
+    width: 100%;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid {
+
+    border: 1px solid red;
+    color: red;
+
+}
+
+
+.form-row select {
+    width: 100%;
+
+}
+
+.form-row button {
+    font-size: 16px;
+    background-color: #5995DA;
+    color: white;
+    cursor: pointer;
+    border: none;
+    
+
+    &:hover{
+        background-color:
+        #76Aeed;
+    }
+
+}
+
+.form-row button:active {
+    background-color: yellow;
+}
+
+    
+
+.boton{
+    width: 25%;
+}
+
+.noticias{
+    border-radius: 10px;
+    border: solid 1px;
+    border-color: #00828F;
+}
+
+.category{
+    display: flex;
+    justify-content: center;
+}
+
+div .boton-color {
+    background-color:$color-secundario;
+    font-family:$font-principal ;
+    color: white;
+    font-weight: bold;
+  }
+
+  .carousel-inner{
+    width: 100%;
+    max-height: 790px;
+  }
+  .carousel-inner img{
+    width: 100%;
+    max-height: 790px;
+  }
+
+ 
+  
