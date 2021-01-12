@@ -287,4 +287,9 @@ div .boton-color {
 }
 
 
+.carousel-inner .carousel-item {
+-webkit-transition: 0s !important;
+-o-transition: 0s !important;
+transition: 0s !important;
+}
 /*# sourceMappingURL=style.css.map */
