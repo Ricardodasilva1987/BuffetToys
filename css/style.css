@@ -7,16 +7,32 @@
 body {
   background-color: #F3EEEB;
 }
+/* Query instalado para  desaperecer las redes sociales a medida que se reduce los px en la pantalla */
+@media(max-width:965px){
+  .redes-soc{
+    display: none;
+  }
+}
 
 .redes-soc {
   position: fixed;
   right: 10px;
   top: 10px;
+  margin-bottom: 10px;
 }
 .redes-soc a {
   margin-right: 18px;
+  
 }
 
+
+.navbar-expand-lg .navbar-collapse,  {
+  margin-top: 30px;
+}
+
+.navbar-brand{
+  margin-top: 10px;
+}
 .main-header {
   display: flex;
   border-bottom: solid #81c0c5 2px;
@@ -35,7 +51,7 @@ a:hover {
 .titulo {
   color: #9e4848;
   font-family: "Roboto", sans-serif;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .fondo {
@@ -142,6 +158,10 @@ img:hover {
   justify-content: space-around;
 }
 
+
+header {
+  border-bottom: 3px solid #00828F;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -292,4 +312,10 @@ div .boton-color {
 -o-transition: 0s !important;
 transition: 0s !important;
 }
+
+.category a {
+  color: #81c0c5;
+}
+
+
 /*# sourceMappingURL=style.css.map */
