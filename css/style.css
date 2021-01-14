@@ -8,11 +8,11 @@ body {
   background-color: #F3EEEB;
 }
 /* Query instalado para  desaperecer las redes sociales a medida que se reduce los px en la pantalla */
-@media(max-width:965px){
+ @media(max-width:965px){
   .redes-soc{
     display: none;
   }
-}
+} 
 
 .redes-soc {
   position: fixed;
@@ -20,13 +20,15 @@ body {
   top: 10px;
   margin-bottom: 10px;
 }
+
+
 .redes-soc a {
   margin-right: 18px;
   
 }
 
 
-.navbar-expand-lg .navbar-collapse,  {
+.navbar-expand-lg .navbar-collapse  {
   margin-top: 30px;
 }
 
@@ -54,12 +56,6 @@ a:hover {
   font-size: 50px;
 }
 
-.fondo {
-  background-image: url(/Imagenes/fondo.jpg);
-  width: 100%;
-  opacity: 50%;
-  height: 800px;
-}
 
 h1 {
   font-family: "Montserrat Alternates", sans-serif;
