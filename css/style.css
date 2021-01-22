@@ -419,4 +419,8 @@ div .boton-color {
   text-indent: 10px;
 }
 
+.Nav-style {
+  background-image: url(/Imagenes/tic-tac-toe.png);
+}
+
 /*# sourceMappingURL=style.css.map */
