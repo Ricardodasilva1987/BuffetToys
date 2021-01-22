@@ -6,7 +6,6 @@
 
 body {
   background-color: #F3EEEB;
-  
 }
 
 .main-header {
@@ -22,6 +21,14 @@ a {
 a:hover {
   border-color: #00828F;
   color: #00828F;
+}
+
+.header-box {
+  border-bottom: solid #00828F 5px;
+}
+
+.producto {
+  padding-bottom: 100px;
 }
 
 .titulo {
@@ -40,19 +47,6 @@ a:hover {
 h1 {
   font-family: "Montserrat Alternates", sans-serif;
   margin: 5%;
-  color: #00828F;
-}
-h1:hover {
-  -webkit-transform: scale(1.25);
-  -moz-transform: scale(1.25);
-  -ms-transform: scale(1.25);
-  -o-transform: scale(1.25);
-  transform: scale(1.25);
-  color: lavender;
-}
-
-.category a {
-  color: #81c0c5;
 }
 
 .producto {
@@ -81,8 +75,17 @@ h1:hover {
   color: lavender;
 }
 
-
-
+h1 {
+  color: #00828F;
+}
+h1:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+  color: lavender;
+}
 
 .section-div {
   padding-top: 20px;
@@ -152,18 +155,6 @@ footer {
   color: #00828F;
   padding-top: 10px;
 }
-
-footer .footer-img{
-  margin-bottom: 10px;
-  
-}
-footer .footer-img a {
-  padding-right: 5px;
-  padding-left: 5px;
-}
-
-
-
 
 .color1 {
   background-color: gray;
@@ -368,7 +359,7 @@ div .boton-color {
 .Index {
   background-image: url(/Imagenes/fon3.jpg);
   background-size: cover;
-  width: auto;
+  width: 100%;
   height: 700px;
   justify-content: center;
   align-items: center;
@@ -380,7 +371,7 @@ div .boton-color {
   border: solid 10px #faf7f2;
 }
 .Index .Index-box .Index-titulo {
-  margin: 5%;
+  margin: 25%;
   font-family: "Roboto", sans-serif;
   font-weight: 400px;
   font-size: 80px;
@@ -396,31 +387,36 @@ div .boton-color {
   font-family: "Roboto", sans-serif;
 }
 
-.header-box{
-  border-bottom: #81c0c5 solid 5px;
-}
-
-.Index .titulo{
+.titulo {
+  display: flex;
+  justify-content: center;
   text-align: center;
-
 }
-.Index h1{
-  font-size:60px ;
-  font-weight: bold;
-  color: #ffffff;
+.titulo h1 {
+  color: white;
+  font-size: 60px;
 }
 
-@media (min-width: 768px) {
-
-  .Index .titulo{
-    border: #ffffff solid 10px;
+@media (max-width: 768px) {
+  .titulo h1 {
+    font-size: 45px;
   }
 }
-
-@media (max-width: 600px) {
-
-  .Index h1{
-    font-size: 40px;
-  }
+.Nav-style img {
+  width: 100px;
+  height: 100px;
 }
+
+.container .row2 p {
+  word-spacing: 15px;
+  line-height: 25px;
+  text-indent: 10px;
+}
+
+.section-index .row p {
+  word-spacing: 10px;
+  line-height: 20px;
+  text-indent: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
